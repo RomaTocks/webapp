@@ -1,0 +1,9 @@
+package com.tocks.webapp.Repositories;
+
+import com.tocks.webapp.Models.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category,Long>
+{
+
+}
